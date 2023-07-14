@@ -52,7 +52,7 @@ let
   };
 
   
-in 
+in
 super.eulerBuild.mkEulerHaskellOverlay self super
   (hself: hsuper: {
     haskell-src-exts = self.eulerBuild.fastBuildExternal {
